@@ -1,0 +1,10 @@
+# 指定该文件版本
+version: '3'
+# 把每个子目录视为一个镜像，开始构建
+services:
+  web1:
+    # 此处仅允许 image, build, ports，禁止其他字段出现，如果有 volume，cmd 等设置需求，请在 Dockerfile 里进行文件拷贝或者申明。
+    image: dbapp/web_tomcat8_mysql_test
+    build: ./web1/
+    ports:
+      - "8079:80"

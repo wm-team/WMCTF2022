@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: ./app/
+    image: wmctf2022/web_subconverter_app
+  front:
+    build: ./front/
+    image: wmctf2022/web_subconverter_front
+    ports:
+    - 80:80
