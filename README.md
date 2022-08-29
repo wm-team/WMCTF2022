@@ -1,4 +1,4 @@
-# WMCTF 2022 OFFICAL WRITE-UP
+# WMCTF 2022 OFFICIAL WRITE-UP
 
 Due to some special reasons, the zero solution challenge does not release the wp
 
